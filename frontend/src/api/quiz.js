@@ -1,8 +1,7 @@
 import axios from 'axios';
 
-// In production (Render static site), VITE_API_URL is set to the backend URL.
-// In local dev, falls back to '' so Vite's proxy handles /api/* → localhost:4000.
-const BASE = import.meta.env.VITE_API_URL || '';
+// Strip trailing slash to avoid double-slash in URLs like //api/quiz/results
+const BASE = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
 
 export const submitQuiz = (answers) =>
   axios.post(`${BASE}/api/quiz/results`, { answers }).then(r => r.data);
