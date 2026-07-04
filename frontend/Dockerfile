@@ -4,7 +4,7 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm install
+RUN npm ci
 
 COPY . .
 RUN npm run build
@@ -12,13 +12,14 @@ RUN npm run build
 # ── Stage 2: serve with nginx ─────────────────────────────────────────────────
 FROM nginx:alpine
 
-# Remove default nginx page
 RUN rm -rf /usr/share/nginx/html/*
 
-# Copy built assets
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# nginx config: serve SPA + proxy /api to backend
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Store the template — envsubst fills in BACKEND_URL at runtime
+COPY nginx.conf /etc/nginx/templates/default.conf.template
+
+# nginx docker image automatically runs envsubst on /etc/nginx/templates/*.template
+# and writes the result to /etc/nginx/conf.d/
 
 EXPOSE 80
