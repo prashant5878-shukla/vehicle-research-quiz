@@ -5,21 +5,21 @@ export function getMatchTag(score) {
 }
 
 export const MATCH_TAG_STYLES = {
-  'Great Match':  'bg-green-100 text-green-700',
-  'Good Match':   'bg-blue-100 text-blue-700',
-  'Worth a Look': 'bg-gray-100 text-gray-500',
+  'Great Match':  'bg-emerald-50 text-emerald-700 ring-1 ring-emerald-100',
+  'Good Match':   'bg-indigo-50 text-indigo-700 ring-1 ring-indigo-100',
+  'Worth a Look': 'bg-slate-100 text-slate-600 ring-1 ring-slate-200',
 };
 
 export const COUNT_PILL_STYLES = {
-  'Great Match':  'bg-green-100 text-green-700',
-  'Good Match':   'bg-blue-100 text-blue-700',
-  'Worth a Look': 'bg-gray-100 text-gray-500',
+  'Great Match':  'bg-emerald-50 text-emerald-700 ring-1 ring-emerald-100',
+  'Good Match':   'bg-indigo-50 text-indigo-700 ring-1 ring-indigo-100',
+  'Worth a Look': 'bg-slate-100 text-slate-600 ring-1 ring-slate-200',
 };
 
 export const MATCH_TAG_ORDER = ['Great Match', 'Good Match', 'Worth a Look'];
 
 export const COMPARE_MATCH_TAG_STYLES = {
-  'Great Match': 'bg-green-100 text-green-700',
-  'Good Match':  'bg-blue-100 text-blue-700',
-  'Worth a Look':'bg-slate-100 text-slate-600',
+  'Great Match': 'bg-emerald-50 text-emerald-700 ring-1 ring-emerald-100',
+  'Good Match':  'bg-indigo-50 text-indigo-700 ring-1 ring-indigo-100',
+  'Worth a Look':'bg-slate-100 text-slate-600 ring-1 ring-slate-200',
 };

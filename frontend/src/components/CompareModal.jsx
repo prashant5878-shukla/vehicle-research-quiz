@@ -27,11 +27,11 @@ export default function CompareModal({ cars, highlights, quizAnswers, onClose, s
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-start justify-center bg-black/50 backdrop-blur-sm p-4 pt-8 overflow-y-auto"
+      className="fixed inset-0 z-50 flex items-start justify-center bg-slate-900/60 backdrop-blur-sm p-6 pt-10 overflow-y-auto"
       onClick={e => { if (e.target === e.currentTarget) onClose(); }}
     >
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-5xl min-h-0">
-        <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100">
+      <div className="card-surface w-full max-w-5xl min-h-0 overflow-hidden">
+        <div className="flex items-center justify-between px-6 py-5 border-b border-slate-100">
           <div>
             <h2 className="text-lg font-bold text-slate-900">Side-by-Side Comparison</h2>
             <p className="text-sm text-slate-500">Comparing {cars.length} cars</p>
@@ -126,10 +126,10 @@ export default function CompareModal({ cars, highlights, quizAnswers, onClose, s
           </table>
         </div>
 
-        <div className="px-6 py-4 border-t border-slate-100 flex justify-end">
+        <div className="px-6 py-5 border-t border-slate-100 flex justify-end">
           <button
             onClick={onClose}
-            className="px-6 py-2 rounded-xl bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700 transition-colors cursor-pointer"
+            className="px-6 py-2.5 rounded-xl bg-indigo-600 text-white text-sm font-semibold hover:bg-indigo-700 transition-all duration-200 cursor-pointer shadow-md shadow-indigo-200"
           >
             Done
           </button>

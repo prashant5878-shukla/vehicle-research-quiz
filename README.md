@@ -4,6 +4,18 @@ A quiz-driven car recommendation tool for the Indian market. Overwhelmed buyers 
 
 ## How to Run
 
+**With Docker (recommended):**
+
+```bash
+docker compose up --build
+```
+
+Then open http://localhost:3000
+
+That's it. No Node, no npm, no env vars required.
+
+**Without Docker (local dev):**
+
 ```bash
 # Terminal 1 — backend
 cd backend

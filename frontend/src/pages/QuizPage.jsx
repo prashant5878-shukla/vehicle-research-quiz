@@ -60,113 +60,139 @@ export default function QuizPage() {
   const isFirstStep = currentStep === 0;
 
   return (
-    <div className="min-h-screen bg-slate-50 flex items-center justify-center px-4 py-10">
-      <div className="max-w-xl w-full mx-auto bg-white rounded-2xl shadow-lg p-8">
+    <div className="min-h-screen bg-gradient-to-br from-slate-100 via-slate-50 to-indigo-50/40 flex items-center justify-center px-6 sm:px-8 py-12 sm:py-16">
+      <div className="w-full max-w-2xl mx-auto">
 
-        <div className="mb-8">
-          <div className="flex justify-between items-center mb-3">
-            <span className="text-xs font-medium text-gray-400 uppercase tracking-wide">
-              Step {currentStep + 1} of {totalSteps}
+        {/* Brand mark */}
+        <div className="text-center mb-10">
+          <div className="inline-flex items-center gap-2 mb-2">
+            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-indigo-600 text-white text-sm font-bold shadow-md shadow-indigo-200">
+              CD
             </span>
-            <span className="text-xs font-medium text-gray-400 uppercase tracking-wide">
-              {Math.round(progress)}%
-            </span>
+            <span className="text-lg font-bold text-slate-900 tracking-tight">CarDekho Research</span>
           </div>
-          <div className="h-1.5 bg-gray-200 rounded-full overflow-hidden">
-            <div
-              className="h-1.5 bg-blue-600 rounded-full transition-all duration-500"
-              style={{ width: `${progress}%` }}
-            />
-          </div>
+          <p className="text-sm text-slate-500">Find your perfect car in 2 minutes</p>
         </div>
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-1">{step.title}</h2>
-        <p className="text-sm text-gray-500 mb-6">
-          {step.subtitle}
-          {step.type === 'multi2' && (
-            <span className={`ml-2 font-semibold ${(currentValue?.length || 0) === 2 ? 'text-green-600' : 'text-blue-500'}`}>
-              ({currentValue?.length || 0}/2 selected)
-            </span>
+        {/* Quiz card */}
+        <div className="card-surface p-8 sm:p-10 md:p-12">
+
+          {/* Progress */}
+          <div className="mb-10">
+            <div className="flex justify-between items-center mb-4">
+              <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                Step {currentStep + 1} of {totalSteps}
+              </span>
+              <span className="text-xs font-semibold text-indigo-600 tabular-nums">
+                {Math.round(progress)}%
+              </span>
+            </div>
+            <div className="h-1 bg-slate-100 rounded-full overflow-hidden">
+              <div
+                className="h-1 bg-indigo-600 rounded-full transition-all duration-500 ease-out"
+                style={{ width: `${progress}%` }}
+              />
+            </div>
+          </div>
+
+          {/* Question */}
+          <div className="mb-10">
+            <h2 className="text-2xl font-bold text-slate-900 tracking-tight leading-snug">
+              {step.title}
+            </h2>
+            <p className="text-sm text-slate-500 mt-3 leading-relaxed">
+              {step.subtitle}
+              {step.type === 'multi2' && (
+                <span className={`ml-2 font-semibold ${(currentValue?.length || 0) === 2 ? 'text-emerald-600' : 'text-indigo-600'}`}>
+                  ({currentValue?.length || 0}/2 selected)
+                </span>
+              )}
+            </p>
+          </div>
+
+          {/* Options */}
+          <div className="flex flex-col gap-4">
+            {step.options.map(opt => {
+              const isSelected =
+                step.type === 'multi2'
+                  ? (currentValue || []).includes(opt.value)
+                  : currentValue === opt.value;
+
+              const isDisabled =
+                step.type === 'multi2' &&
+                !isSelected &&
+                (currentValue || []).length >= 2;
+
+              return (
+                <button
+                  key={opt.value}
+                  onClick={() =>
+                    step.type === 'multi2' ? handleMulti(opt.value) : handleSingle(opt.value)
+                  }
+                  disabled={isDisabled}
+                  className={[
+                    'w-full text-left px-6 py-5 rounded-xl transition-all duration-200',
+                    'flex items-center justify-between gap-4',
+                    'focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2',
+                    isSelected
+                      ? 'bg-indigo-50 ring-2 ring-indigo-600 shadow-sm shadow-indigo-100 cursor-pointer'
+                      : isDisabled
+                        ? 'bg-slate-50 ring-1 ring-slate-100 opacity-40 cursor-not-allowed'
+                        : 'bg-white ring-1 ring-slate-200 hover:ring-indigo-300 hover:bg-indigo-50/40 cursor-pointer card-surface-hover',
+                  ].join(' ')}
+                >
+                  <span className="text-[15px] font-medium text-slate-800 leading-snug">{opt.label}</span>
+                  {isSelected && <CheckIcon />}
+                </button>
+              );
+            })}
+          </div>
+
+          {error && (
+            <p className="mt-6 text-sm text-red-600 text-center bg-red-50 rounded-xl px-5 py-4 ring-1 ring-red-100">
+              {error}
+            </p>
           )}
-        </p>
 
-        <div className="space-y-3">
-          {step.options.map(opt => {
-            const isSelected =
-              step.type === 'multi2'
-                ? (currentValue || []).includes(opt.value)
-                : currentValue === opt.value;
+          {loading && (
+            <div className="mt-8">
+              <Spinner />
+            </div>
+          )}
 
-            const isDisabled =
-              step.type === 'multi2' &&
-              !isSelected &&
-              (currentValue || []).length >= 2;
-
-            return (
+          {/* Footer nav — separated from options */}
+          <div className="flex justify-between items-center mt-10 pt-8 border-t border-slate-100">
+            {isFirstStep ? (
+              <div className="w-16" />
+            ) : (
               <button
-                key={opt.value}
-                onClick={() =>
-                  step.type === 'multi2' ? handleMulti(opt.value) : handleSingle(opt.value)
-                }
-                disabled={isDisabled}
-                className={[
-                  'w-full text-left px-5 py-4 rounded-xl border-2 transition-all duration-200',
-                  'flex items-center justify-between gap-3',
-                  'focus:outline-none',
-                  isSelected
-                    ? 'border-blue-600 bg-blue-50 ring-2 ring-blue-600/20 cursor-pointer'
-                    : isDisabled
-                      ? 'border-gray-200 bg-white opacity-40 cursor-not-allowed'
-                      : 'border-gray-200 bg-white hover:border-blue-300 hover:bg-blue-50/50 cursor-pointer',
-                ].join(' ')}
+                onClick={handleBack}
+                disabled={loading}
+                className="px-5 py-2.5 text-sm font-medium text-slate-500 hover:text-slate-800 transition-all duration-200 cursor-pointer disabled:opacity-40 rounded-lg hover:bg-slate-50"
               >
-                <span className="text-base font-medium text-gray-800">{opt.label}</span>
-                {isSelected && <CheckIcon />}
+                ← Back
               </button>
-            );
-          })}
-        </div>
+            )}
 
-        {error && (
-          <p className="mt-4 text-sm text-red-500 text-center">{error}</p>
-        )}
-
-        {loading && (
-          <div className="mt-5">
-            <Spinner />
-          </div>
-        )}
-
-        <div className="flex justify-between items-center mt-8 pt-6 border-t border-gray-100">
-          {isFirstStep ? (
-            <div />
-          ) : (
             <button
-              onClick={handleBack}
-              disabled={loading}
-              className="text-sm font-medium text-gray-500 hover:text-gray-700 transition-all duration-200 cursor-pointer disabled:opacity-40"
+              onClick={handleNext}
+              disabled={isNextDisabled() || loading}
+              className={[
+                'px-8 py-3.5 rounded-xl font-semibold text-sm text-white transition-all duration-200',
+                'shadow-md',
+                isNextDisabled() || loading
+                  ? 'bg-slate-300 shadow-none cursor-not-allowed'
+                  : 'cursor-pointer hover:shadow-lg active:scale-[0.98]',
+                isLastStep
+                  ? 'bg-emerald-600 hover:bg-emerald-700 shadow-emerald-200'
+                  : 'bg-indigo-600 hover:bg-indigo-700 shadow-indigo-200',
+              ].join(' ')}
             >
-              ← Back
+              {isLastStep ? 'Find My Cars →' : 'Next →'}
             </button>
-          )}
+          </div>
 
-          <button
-            onClick={handleNext}
-            disabled={isNextDisabled() || loading}
-            className={[
-              'px-8 py-3 rounded-xl font-semibold text-sm text-white transition-all duration-200',
-              isNextDisabled() || loading
-                ? 'opacity-50 cursor-not-allowed'
-                : 'cursor-pointer hover:shadow-md',
-              isLastStep
-                ? 'bg-green-600 hover:bg-green-700'
-                : 'bg-blue-600 hover:bg-blue-700',
-            ].join(' ')}
-          >
-            {isLastStep ? 'Find My Cars →' : 'Next →'}
-          </button>
         </div>
-
       </div>
     </div>
   );
