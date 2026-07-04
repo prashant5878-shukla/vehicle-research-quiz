@@ -1,0 +1,698 @@
+[
+  {
+    "carId": "alto-k10-vxi-petrol",
+    "reviewerName": "Suresh P.",
+    "rating": 4,
+    "ownershipMonths": 8,
+    "reviewText": "Perfect first car for city use. Mileage of 22+ kmpl in mixed driving is impressive. Parking is effortless in Mumbai traffic. Don't expect highway performance though — it struggles above 100 kmph.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "alto-k10-vxi-petrol",
+    "reviewerName": "Geeta R.",
+    "rating": 3,
+    "ownershipMonths": 14,
+    "reviewText": "Bought it for my daughter's college commute. It does the job but the cabin is very basic and road noise is high on highways. AMT option is convenient but jerky. Service costs are very low which is a big plus.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "alto-k10-vxi-petrol",
+    "reviewerName": "Vinod T.",
+    "rating": 4,
+    "ownershipMonths": 3,
+    "reviewText": "Excellent value for money. Feature list is decent for the price — push start, rear camera, auto AC. Build quality feels light but it's a budget car. Would recommend for anyone starting out.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "swift-vxi-petrol",
+    "reviewerName": "Rahul M.",
+    "rating": 4,
+    "ownershipMonths": 6,
+    "reviewText": "Best mileage in class, handles city roads well. The new gen Swift feels much more premium inside. Sporty styling turns heads. Rear seat is tight for 3 adults but two people sit very comfortably.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "swift-vxi-petrol",
+    "reviewerName": "Pooja S.",
+    "rating": 5,
+    "ownershipMonths": 12,
+    "reviewText": "Absolutely love this car. The 1.2 petrol is peppy and responsive. Clocked 24 kmpl on a highway trip. Boot is small but manageable for a couple. Maruti service centers everywhere is a big comfort.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "swift-zxi-petrol",
+    "reviewerName": "Arjun K.",
+    "rating": 4,
+    "ownershipMonths": 9,
+    "reviewText": "The sunroof and cruise control on ZXI+ make it genuinely enjoyable. Highway drives are very relaxed. My only complaint is rear legroom — taller passengers will struggle on long trips. Great resale value expected.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "swift-zxi-petrol",
+    "reviewerName": "Meena D.",
+    "rating": 3,
+    "ownershipMonths": 18,
+    "reviewText": "Good car overall but at this price I'd expect better safety ratings. The 3-star NCAP is concerning for a family car. Also no rear AC vents which is very uncomfortable for back seat passengers in Indian summers.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "baleno-delta-petrol",
+    "reviewerName": "Kiran B.",
+    "rating": 4,
+    "ownershipMonths": 11,
+    "reviewText": "The cabin is genuinely spacious and the 318-litre boot easily handles airport bags. Ride quality is comfortable. Mileage around 18 kmpl in city. The 2-star safety rating is the only big concern for me.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "baleno-delta-petrol",
+    "reviewerName": "Sanjay V.",
+    "rating": 3,
+    "ownershipMonths": 7,
+    "reviewText": "Roomy and smooth but the infotainment in Delta trim feels cheap and outdated. No Android Auto connectivity is frustrating. The safety rating of 2 stars put me off initially but budget didn't allow for Alpha.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "baleno-alpha-petrol",
+    "reviewerName": "Nisha C.",
+    "rating": 5,
+    "ownershipMonths": 5,
+    "reviewText": "Incredible value at this price. The HUD display is a premium feature I didn't expect in a hatchback. Connected car features work well. Cabin space is the best in segment. Only wish the safety rating were better.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "baleno-alpha-petrol",
+    "reviewerName": "Deepak N.",
+    "rating": 4,
+    "ownershipMonths": 16,
+    "reviewText": "Smooth highway cruiser. Touchscreen occasionally lags but software updates have helped. The sunroof is a delight in cooler months. Maruti's service network is unmatched — even in tier-2 cities.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "i20-magna-petrol",
+    "reviewerName": "Priya L.",
+    "rating": 4,
+    "ownershipMonths": 10,
+    "reviewText": "Premium feel inside that no other hatchback matches. The digital instrument cluster looks great. Rear seat space is generous for the segment. Mileage is lower than Maruti rivals but the driving experience compensates.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "i20-magna-petrol",
+    "reviewerName": "Ravi O.",
+    "rating": 3,
+    "ownershipMonths": 20,
+    "reviewText": "Good car but the non-turbo 1.2 feels a bit sluggish in traffic. Expected better mileage given the price. Hyundai's service is good but slightly expensive. Overall a solid choice if you prioritise cabin quality.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "i20-asta-turbo-petrol",
+    "reviewerName": "Anil F.",
+    "rating": 5,
+    "ownershipMonths": 4,
+    "reviewText": "The turbo engine transforms this hatchback into something genuinely exciting. 0-100 in around 9.5 seconds feels quick. Sunroof, wireless charging, ambient lighting — very premium package. Worth every rupee.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "i20-asta-turbo-petrol",
+    "reviewerName": "Sunita W.",
+    "rating": 3,
+    "ownershipMonths": 13,
+    "reviewText": "Amazing features but the turbo gives terrible mileage in stop-go Bangalore traffic — barely 10-11 kmpl. The suspension is stiff and potholes are very noticeable. Fun on weekends but not ideal for daily slog.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "altroz-xm-petrol",
+    "reviewerName": "Ramesh J.",
+    "rating": 5,
+    "ownershipMonths": 15,
+    "reviewText": "5-star safety in a hatchback under 7 lakh — nothing comes close. Build quality is tank-like. The boot at 345 litres is the best in class. Engine is smooth for city driving. This is the safest family hatchback you can buy.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "altroz-xm-petrol",
+    "reviewerName": "Lakshmi G.",
+    "rating": 4,
+    "ownershipMonths": 8,
+    "reviewText": "Solid and safe, great peace of mind especially with kids on board. The ride can feel stiff on broken roads — Tata needs to tune the suspension better. Mileage around 17-18 kmpl in city, decent.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "altroz-xz-plus-petrol",
+    "reviewerName": "Harish M.",
+    "rating": 4,
+    "ownershipMonths": 6,
+    "reviewText": "Sunroof, connected features, ambient lighting in a hatchback — Tata has outdone itself. Cabin quality rivals some compact SUVs. At nearly 10 lakh though, the Nexon Smart starts looking very tempting for similar money.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "altroz-xz-plus-petrol",
+    "reviewerName": "Divya H.",
+    "rating": 5,
+    "ownershipMonths": 2,
+    "reviewText": "Bought it a couple of months ago and I'm very happy. The connected car app is useful. Safety is the number one reason I chose Altroz over Swift. Touchscreen is large and clear. Would recommend to any safety-conscious buyer.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "glanza-g-petrol",
+    "reviewerName": "Sunil A.",
+    "rating": 4,
+    "ownershipMonths": 9,
+    "reviewText": "Toyota reliability is the main selling point. Runs like a dream, zero issues in 9 months. The cabin and mechanicals are identical to Baleno but Toyota's service experience feels more premium. Great peace of mind purchase.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "glanza-g-petrol",
+    "reviewerName": "Rekha T.",
+    "rating": 3,
+    "ownershipMonths": 22,
+    "reviewText": "It is essentially a Baleno with a Toyota badge and a price premium. I wish Toyota had differentiated it more. Still, the ToyotaSure used car program and service standards make the premium worthwhile for some people.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "glanza-v-petrol",
+    "reviewerName": "Mahesh B.",
+    "rating": 4,
+    "ownershipMonths": 5,
+    "reviewText": "The AMT is smooth enough for city use. HUD display is genuinely useful while driving. Toyota badge means excellent resale value when I decide to upgrade. The only let-down is the 2-star safety rating which feels unsafe.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "glanza-v-petrol",
+    "reviewerName": "Anita K.",
+    "rating": 4,
+    "ownershipMonths": 18,
+    "reviewText": "Long ownership now and zero major issues. The connected car features and HUD still feel fresh. Toyota's after-sales is excellent. Mileage around 19-20 kmpl in mixed driving which is good. Would buy again.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "venue-sx-turbo-petrol",
+    "reviewerName": "Nikhil S.",
+    "rating": 5,
+    "ownershipMonths": 7,
+    "reviewText": "Best compact SUV I've driven. The 1.0 turbo DCT is a revelation — smooth and quick. ADAS features like lane keep assist actually work on highways. 360-degree camera makes parking in tight spots easy. Highly recommend.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "venue-sx-turbo-petrol",
+    "reviewerName": "Kavitha R.",
+    "rating": 4,
+    "ownershipMonths": 11,
+    "reviewText": "Excellent feature list for the segment but the DCT gearbox is noticeably jerky in bumper-to-bumper Hyderabad traffic. Highway driving is sublime. The sunroof makes weekend drives special. Overall very happy.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "venue-sx-turbo-petrol",
+    "reviewerName": "Prakash U.",
+    "rating": 3,
+    "ownershipMonths": 24,
+    "reviewText": "Owned for 2 years. DCT clutch started giving issues at 35,000 km — expensive to service. ADAS false alarms are annoying. As a daily city driver the turbo doesn't deliver promised mileage. Bit disappointed at this price.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "creta-sx-petrol",
+    "reviewerName": "Rohit M.",
+    "rating": 5,
+    "ownershipMonths": 3,
+    "reviewText": "The panoramic sunroof is stunning. ADAS level 2 works brilliantly on highways. Ventilated seats are a lifesaver in Pune summers. The 2024 refresh brought a modern interior that rivals cars costing 5 lakh more.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "creta-sx-petrol",
+    "reviewerName": "Smitha V.",
+    "rating": 4,
+    "ownershipMonths": 8,
+    "reviewText": "Bought top trim at 20 lakh and it feels every bit premium. The CVT is smooth for city driving. Only complaint is that 3-star NCAP safety is unacceptable at this price — Tata offers 5 stars. Still love the car overall.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "nexon-smart-petrol",
+    "reviewerName": "Aakash P.",
+    "rating": 5,
+    "ownershipMonths": 10,
+    "reviewText": "5-star safety with 208mm ground clearance — perfect for Indian roads. The turbo petrol has strong mid-range punch. Monthly fuel cost is higher than Maruti but the safety and ground clearance justify it for my family.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "nexon-smart-petrol",
+    "reviewerName": "Vandana C.",
+    "rating": 4,
+    "ownershipMonths": 16,
+    "reviewText": "Very happy with the Nexon. Tata's service has improved massively. The turbo petrol picks up well on highways. Boot space of 382L is very practical. Suspension absorbs bad roads without complaint. A very well-rounded car.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "nexon-creative-plus-petrol",
+    "reviewerName": "Santosh E.",
+    "rating": 4,
+    "ownershipMonths": 5,
+    "reviewText": "Top trim Nexon is a superb package. Sunroof, 360 camera, ambient lighting — feels very premium. The connected car app is one of the best I've used. AMT is fine for city but I wish there was a proper DCT option.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "nexon-creative-plus-petrol",
+    "reviewerName": "Lata Q.",
+    "rating": 3,
+    "ownershipMonths": 19,
+    "reviewText": "The AMT gearbox is not suited for highway overtaking — there's a noticeable hesitation before it downshifts. Mileage is only 14-15 kmpl in city. Tata's service quality varies a lot between dealerships. Features are great but execution could be tighter.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "punch-pure-petrol",
+    "reviewerName": "Bhaskar N.",
+    "rating": 4,
+    "ownershipMonths": 12,
+    "reviewText": "5-star safety for under 7 lakh is unmatched. My family feels very safe in this car. Yes it's basic in features but the core — safety, build, practicality — is excellent. Perfect for a budget family buyer.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "punch-pure-petrol",
+    "reviewerName": "Asha F.",
+    "rating": 3,
+    "ownershipMonths": 6,
+    "reviewText": "Bought the base for the safety rating. The lack of AC at base level in Indian heat is really unacceptable. Had to visit an aftermarket shop to get AC added. Otherwise the car is well-built and practical.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "punch-accomplished-petrol",
+    "reviewerName": "Rajan I.",
+    "rating": 5,
+    "ownershipMonths": 7,
+    "reviewText": "Best value car in India right now. Sunroof, AMT, connected car and 5-star safety for under 10 lakh. Nothing else offers this combination. City driving with AMT is very convenient. My wife loves the sunroof.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "punch-accomplished-petrol",
+    "reviewerName": "Meera D.",
+    "rating": 4,
+    "ownershipMonths": 15,
+    "reviewText": "Great little car but the underpowered engine on steep inclines or highway overtakes can be nerve-wracking. The suspension feels floaty at high speeds. Stick to city and suburban use and it's brilliant. AC cooling is excellent.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "sonet-gtx-plus-turbo",
+    "reviewerName": "Vikram S.",
+    "rating": 5,
+    "ownershipMonths": 6,
+    "reviewText": "The GTX+ Sonet is a feature monster. Level 2 ADAS, ventilated seats, wireless charging in a sub-compact SUV — Kia has set the bar impossibly high. The turbo DCT combo is smooth and quick. Best in class without question.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "sonet-gtx-plus-turbo",
+    "reviewerName": "Padma L.",
+    "rating": 4,
+    "ownershipMonths": 14,
+    "reviewText": "Very impressed with the features and performance. The DCT is amazing on highways. My gripe is the cramped rear seat — I have 6-foot tall friends who can barely sit in the back. Also 3-star safety is a real concern for a car at 16 lakh.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "sonet-gtx-plus-turbo",
+    "reviewerName": "Ganesh W.",
+    "rating": 3,
+    "ownershipMonths": 20,
+    "reviewText": "Owned for nearly 2 years. DCT gearbox had to be replaced at 40,000 km — costly affair. Kia's service centers are improving but still not as widespread as Hyundai. The features are great but ownership costs are high. Think carefully before buying turbo DCT.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "seltos-gtx-plus-petrol",
+    "reviewerName": "Harsha K.",
+    "rating": 5,
+    "ownershipMonths": 4,
+    "reviewText": "The 158 bhp turbo in the Seltos is genuinely fast. 0-100 in under 8 seconds feels almost like a sports car. Panoramic sunroof is a showstopper. ADAS and ventilated seats make it a complete package. Worth the premium over base Creta/Seltos.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "seltos-gtx-plus-petrol",
+    "reviewerName": "Ananya B.",
+    "rating": 4,
+    "ownershipMonths": 10,
+    "reviewText": "Extremely well-equipped and a joy to drive on highways. The turbo 1.5 sounds good and pulls strongly. Mileage in city is poor — around 11-12 kmpl. Kia's after-sales costs are higher than I expected. But the driving experience is addictive.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "brezza-zxi-plus-petrol",
+    "reviewerName": "Suresh T.",
+    "rating": 4,
+    "ownershipMonths": 8,
+    "reviewText": "Maruti's SUV gets everything right that matters for India. 4-star safety, smooth AT, HUD display, strong resale value. The boot is smaller than Creta but still manageable. Service cost is much lower than Korean rivals — huge advantage.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "brezza-zxi-plus-petrol",
+    "reviewerName": "Kamala P.",
+    "rating": 4,
+    "ownershipMonths": 18,
+    "reviewText": "The head-up display is genuinely helpful and I use it daily. AT gearbox is smooth and comfortable. The 360 camera makes parking in Delhi's tight spots easy. No ventilated seats is a miss but otherwise a well-rounded package.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "brezza-zxi-plus-petrol",
+    "reviewerName": "Mohan R.",
+    "rating": 3,
+    "ownershipMonths": 24,
+    "reviewText": "Owned for 2 years and 45,000 km. The AT gearbox is smooth but mileage dropped to 13-14 kmpl in city over time. No ADAS at this price range is disappointing when rivals offer it. Maruti service is unbeatable though.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "wrv-sv-petrol",
+    "reviewerName": "Jayesh N.",
+    "rating": 4,
+    "ownershipMonths": 11,
+    "reviewText": "Honda's ride quality is unmatched for comfort. The WR-V absorbs bad roads beautifully. Cabin is well-built and spacious for the size. Honda reliability is a known entity. Main concern is the brand's limited dealer footprint outside metros.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "wrv-sv-petrol",
+    "reviewerName": "Sonal D.",
+    "rating": 3,
+    "ownershipMonths": 17,
+    "reviewText": "Good car but feels somewhat outdated now compared to the Korean competition. No turbo engine option means it falls behind on performance. Honda's discontinuation rumours haven't helped confidence either. Would recommend Venue or Brezza instead.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "xuv700-mx-petrol",
+    "reviewerName": "Rajesh C.",
+    "rating": 4,
+    "ownershipMonths": 9,
+    "reviewText": "197 bhp in an SUV under 15 lakh is astonishing value. The petrol engine is smooth and quick. 7 seats make it very practical for a large family. Base trim misses out on the panoramic sunroof and ADAS which are the star features of this car.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "xuv700-mx-petrol",
+    "reviewerName": "Nalini S.",
+    "rating": 3,
+    "ownershipMonths": 15,
+    "reviewText": "The engine is excellent but Mahindra's service experience has been inconsistent at my dealer. Had a sensor issue at 20,000 km and it took 2 weeks to resolve. The car itself is great but the ownership experience needs work.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "xuv700-ax7-diesel",
+    "reviewerName": "Vikrant P.",
+    "rating": 5,
+    "ownershipMonths": 5,
+    "reviewText": "ADAS level 2 in India under 26 lakh — nobody else does this. The diesel torque is immense and overtaking on highways is effortless. Panoramic sunroof, ventilated seats, HUD — this car has it all. Mahindra has truly arrived.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "xuv700-ax7-diesel",
+    "reviewerName": "Seema K.",
+    "rating": 4,
+    "ownershipMonths": 12,
+    "reviewText": "Incredible value at the price. The ADAS system works well on expressways. Only complaint is the size — it's genuinely hard to park in narrow city lanes. Also had a waiting period of 4 months which was frustrating. But no regrets.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "scorpio-n-z2-diesel",
+    "reviewerName": "Arjun V.",
+    "rating": 4,
+    "ownershipMonths": 10,
+    "reviewText": "The Scorpio N exudes road presence like nothing else. The diesel engine is strong and the 5-star safety is reassuring. Ride quality is SUV-like — you feel the road but it's manageable. For road trips and off-road it's superb.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "scorpio-n-z2-diesel",
+    "reviewerName": "Deepa M.",
+    "rating": 3,
+    "ownershipMonths": 8,
+    "reviewText": "The ride quality in the city is rough on bad roads — my back complains after long commutes. The 6-seat layout means the middle seat in row 2 is very uncomfortable. But on highways and dirt tracks it feels absolutely capable.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "thar-lx-petrol",
+    "reviewerName": "Rohit A.",
+    "rating": 5,
+    "ownershipMonths": 7,
+    "reviewText": "Nothing compares to the Thar for weekend adventures. The 4WD with low range tackles almost anything. The new petrol engine is smooth and powerful — no more diesel vibrations. Yes it's only 4 seats but that's a fair trade for what it offers.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "thar-lx-petrol",
+    "reviewerName": "Priti N.",
+    "rating": 3,
+    "ownershipMonths": 20,
+    "reviewText": "Fun for weekends but exhausting as a daily driver. Fuel economy is around 12-13 kmpl. The cabin at 4 people is full. Highway noise and vibration are high. Great for off-road enthusiasts but buyers wanting a family daily driver should look elsewhere.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "harrier-smart-diesel",
+    "reviewerName": "Saurabh G.",
+    "rating": 4,
+    "ownershipMonths": 13,
+    "reviewText": "The Harrier diesel is strong and refined. 5-star safety in a large SUV is very reassuring. Tata's build quality is excellent — feels solid and premium. Missing a petrol option and 7-seater variant is limiting but as a 5-seat diesel it's brilliant.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "harrier-smart-diesel",
+    "reviewerName": "Kaveri L.",
+    "rating": 3,
+    "ownershipMonths": 6,
+    "reviewText": "Bought the Smart trim and feel under-featured for the price. No sunroof or ventilated seats in the base feels like a raw deal. The diesel engine is good but jerky at low speeds in city traffic. I should have stretched to a higher trim.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "harrier-adventure-plus-diesel",
+    "reviewerName": "Vivek T.",
+    "rating": 5,
+    "ownershipMonths": 4,
+    "reviewText": "The panoramic sunroof and ADAS together make long highway drives genuinely luxurious. Ventilated seats are essential in Chennai heat. 5-star safety gives confidence. This is the best large family SUV under 25 lakh, period.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "harrier-adventure-plus-diesel",
+    "reviewerName": "Pallavi S.",
+    "rating": 4,
+    "ownershipMonths": 9,
+    "reviewText": "Premium SUV experience at a fair price. The AT gearbox is smooth and the diesel torque makes highway overtakes effortless. ADAS gave a false alarm once on a flyover but generally works well. Mileage of 14-15 kmpl in mixed driving.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "safari-smart-diesel",
+    "reviewerName": "Girish B.",
+    "rating": 4,
+    "ownershipMonths": 11,
+    "reviewText": "7-seater with 5-star safety — Safari is unbeatable value for large families. The boot of 447 litres is huge. The diesel engine is strong. Third row works fine for children but adults will find it cramped on long trips.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "safari-smart-diesel",
+    "reviewerName": "Usha M.",
+    "rating": 4,
+    "ownershipMonths": 16,
+    "reviewText": "Family car of the year for us. We do frequent inter-city trips and the Safari handles them effortlessly. 6 adults fit without too much complaint (third row is tight but functional). Diesel mileage of 16-17 kmpl on highways is great.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "safari-smart-diesel",
+    "reviewerName": "Hemant D.",
+    "rating": 3,
+    "ownershipMonths": 22,
+    "reviewText": "Good family hauler but the turning radius makes city driving difficult. Parking in metro areas is a challenge. Tata's service quality varies — had a poor experience at one dealership. No petrol option limits the buyer pool unnecessarily.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "hector-sharp-petrol",
+    "reviewerName": "Ratan K.",
+    "rating": 4,
+    "ownershipMonths": 8,
+    "reviewText": "The 14-inch portrait touchscreen is a conversation starter every time. Infotainment system is responsive and feature-rich. Panoramic sunroof is stunning. MG's after-sales improving. The CVT feels sluggish in heavy traffic though.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "hector-sharp-petrol",
+    "reviewerName": "Alka P.",
+    "rating": 3,
+    "ownershipMonths": 18,
+    "reviewText": "The infotainment is great but the CVT truly disappoints on highway overtakes — you have to plan well ahead. Mileage is only 11-12 kmpl in city. MG has fewer dealerships than Hyundai or Tata which is a concern for long-term ownership.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "city-sv-petrol",
+    "reviewerName": "Sudhir R.",
+    "rating": 4,
+    "ownershipMonths": 14,
+    "reviewText": "Honda City remains the gold standard for sedans. Smooth engine, comfortable cabin, excellent highway cruiser. Mileage of 16-17 kmpl in city is decent. Safety rating of 2 stars is the only blemish on an otherwise excellent car.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "city-sv-petrol",
+    "reviewerName": "Sunanda B.",
+    "rating": 4,
+    "ownershipMonths": 7,
+    "reviewText": "Sedan buyer at heart and City doesn't disappoint. Low floor entry is comfortable for elderly family members. Boot is enormous. The 1.5 petrol is refined and smooth. Would prefer a turbo option but the NA engine is adequate.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "city-zx-cvt-petrol",
+    "reviewerName": "Manish T.",
+    "rating": 5,
+    "ownershipMonths": 5,
+    "reviewText": "Top trim City with ADAS, ventilated seats and sunroof is a genuinely premium sedan experience. CVT is silky smooth for Bangalore traffic. ADAS features work well on NICE road. Worth every paisa above the SV trim.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "city-zx-cvt-petrol",
+    "reviewerName": "Geeta V.",
+    "rating": 3,
+    "ownershipMonths": 19,
+    "reviewText": "The 2-star safety rating haunts me every time I read about car crashes. Honda needs to urgently sort this out with structural changes. Otherwise the car is excellent — comfortable, well-featured and reliable. But safety cannot be compromised.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "ciaz-alpha-petrol",
+    "reviewerName": "Nand K.",
+    "rating": 4,
+    "ownershipMonths": 21,
+    "reviewText": "Best mileage in any automatic sedan — I consistently get 18-19 kmpl in mixed driving after 2 years. The boot is massive. Cabin is spacious and comfortable. Maruti service is available in my small town which is very important. Recommended for budget sedan buyers.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "ciaz-alpha-petrol",
+    "reviewerName": "Archana S.",
+    "rating": 3,
+    "ownershipMonths": 10,
+    "reviewText": "The interior design feels dated compared to City or Verna. The 2-star safety rating is alarming. The 1.5 engine feels underpowered above 100 kmph. The mileage and low service costs are genuinely attractive though, especially with CNG availability.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "verna-s-petrol",
+    "reviewerName": "Karthik M.",
+    "rating": 4,
+    "ownershipMonths": 6,
+    "reviewText": "The new Verna is a massive step up from the old one. Cabin quality rivals entry-level luxury cars. The 528-litre boot is the segment best. 1.5 NA petrol is smooth for city use. Hyundai's styling is very modern.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "verna-s-petrol",
+    "reviewerName": "Jasmine P.",
+    "rating": 3,
+    "ownershipMonths": 12,
+    "reviewText": "Sedan buyers are a dying breed and Hyundai hasn't helped by not offering the turbo in lower trims. The S trim misses out on key features. 3-star safety in 2024 is poor. Great cabin but I'd rather have a Creta for the same money.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "verna-sx-turbo-petrol",
+    "reviewerName": "Deepak J.",
+    "rating": 5,
+    "ownershipMonths": 3,
+    "reviewText": "This is easily the most fun-to-drive sedan you can buy in India. The 1.0 turbo with DCT is exhilarating. ADAS works brilliantly on NH48. 360 camera, ventilated seats, ambient lighting — it's loaded. Absolutely no regrets at 18 lakh.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "verna-sx-turbo-petrol",
+    "reviewerName": "Sowmya R.",
+    "rating": 4,
+    "ownershipMonths": 9,
+    "reviewText": "Premium sedan experience for sure. Turbo fuel economy in city is 12-13 kmpl which is disappointing. The DCT can be jerky in traffic. But on open roads this car is brilliant and comfortable. Sedan lovers will adore it.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "virtus-dynamic-petrol",
+    "reviewerName": "Gaurav A.",
+    "rating": 5,
+    "ownershipMonths": 6,
+    "reviewText": "5-star safety in a sedan under 13 lakh — Volkswagen deserves enormous credit. The TSI turbo is punchy and the AT is smooth. Build quality is German through and through. This is the safest and most fun sedan in India at this price.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "virtus-dynamic-petrol",
+    "reviewerName": "Ritu M.",
+    "rating": 4,
+    "ownershipMonths": 15,
+    "reviewText": "Excellent car but the 15,000 km service cost hit my wallet hard — VW parts are pricey. The driving dynamics are unmatched in this segment. Rear disc brakes give great stopping confidence. Would recommend if you're ok with slightly higher service bills.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "virtus-dynamic-petrol",
+    "reviewerName": "Bharat S.",
+    "rating": 3,
+    "ownershipMonths": 23,
+    "reviewText": "Owned nearly 2 years and the car is reliable but two service visits were expensive. VW dealer in my city is just one — too far from home. The car itself is brilliant to drive. Just be prepared for ownership costs that are higher than Japanese rivals.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "nexon-ev-medium",
+    "reviewerName": "Ajay L.",
+    "rating": 4,
+    "ownershipMonths": 10,
+    "reviewText": "My first EV and I love it. Charging at home overnight means I never visit a petrol station. Running cost is under 1 rupee per km. The 325 km real-world range is fine for my 40 km daily commute. 5-star safety seals the deal.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "nexon-ev-medium",
+    "reviewerName": "Leela K.",
+    "rating": 3,
+    "ownershipMonths": 16,
+    "reviewText": "Great for city use but I made the mistake of taking it on a weekend highway trip — range anxiety is very real. AC usage drops range noticeably. The charging infrastructure outside metros is still sparse. Would not recommend if you do frequent highway travel.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "nexon-ev-long-range",
+    "reviewerName": "Pradeep V.",
+    "rating": 5,
+    "ownershipMonths": 4,
+    "reviewText": "465 km range solves most range anxiety concerns. Made a Pune-Mumbai trip with range to spare. ADAS, ventilated seats and V2L capability make this the best EV value in India. Tata's charging network has grown significantly.",
+    "drivingPattern": "highway"
+  },
+  {
+    "carId": "nexon-ev-long-range",
+    "reviewerName": "Meena S.",
+    "rating": 4,
+    "ownershipMonths": 8,
+    "reviewText": "Almost at 20 lakh which stretches the budget but the running cost savings make up for it in 2-3 years. DC fast charging fills it up in under an hour. The ADAS is great on expressways. Tata's iRA connected app is best in class.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "zs-ev-excite-plus",
+    "reviewerName": "Rahul T.",
+    "rating": 4,
+    "ownershipMonths": 7,
+    "reviewText": "The V2L feature is genuinely useful — I've powered a rice cooker and a small inverter during a camping trip. Panoramic sunroof in an EV feels very premium. 461 km range covers most use cases. MG's service network is my only concern.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "zs-ev-excite-plus",
+    "reviewerName": "Nisha A.",
+    "rating": 3,
+    "ownershipMonths": 13,
+    "reviewText": "The car is excellent technically but the low ground clearance of 177mm is a problem on speed breakers and rough village roads. Had a chassis scrape once. MG has only one service center in my city. Chinese brand perception also bothers some in my family.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "xuv400-pro-ev",
+    "reviewerName": "Suraj M.",
+    "rating": 4,
+    "ownershipMonths": 9,
+    "reviewText": "Mahindra's first proper EV is impressive. The torque off the line is addictive — I constantly win light-to-light races. 456 km range is adequate. 5-star safety and 200mm ground clearance are class-leading for an EV.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "xuv400-pro-ev",
+    "reviewerName": "Tanvi R.",
+    "rating": 3,
+    "ownershipMonths": 14,
+    "reviewText": "The car has great bones but the interior quality disappoints at this price — plastic quality and fit-finish lag behind Tata and MG. No ADAS is a miss. Mahindra's EV charging network is far behind Tata. Would wait for the XUV.e8 to mature.",
+    "drivingPattern": "mixed"
+  },
+  {
+    "carId": "tiago-ev-mr-plus",
+    "reviewerName": "Dinesh P.",
+    "rating": 5,
+    "ownershipMonths": 11,
+    "reviewText": "Most affordable EV in India and it's genuinely good. My 30 km daily office commute costs under Rs 40 in electricity. Charging at home is dead simple. The connected car app works well. Tata has democratised EVs in India with this car.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "tiago-ev-mr-plus",
+    "reviewerName": "Kalpana V.",
+    "rating": 4,
+    "ownershipMonths": 5,
+    "reviewText": "Perfect city EV. The 250 km range is fine for my use case. Small boot is a compromise but the running cost is incredible. Cabin is basic but the essentials are there. Tata's EV ecosystem — charging, app, service — is the most mature in India.",
+    "drivingPattern": "city"
+  },
+  {
+    "carId": "tiago-ev-mr-plus",
+    "reviewerName": "Gopal S.",
+    "rating": 3,
+    "ownershipMonths": 18,
+    "reviewText": "Good for city but I've been stranded once on a short highway run when AC killed the range faster than expected. 250 km is the claimed range; real-world with AC and highway speeds is closer to 200 km. Needs a long-range variant urgently.",
+    "drivingPattern": "mixed"
+  }
+]
