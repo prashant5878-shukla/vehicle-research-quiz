@@ -1,14 +1,27 @@
 #!/bin/bash
 set -e
 
-echo "🚗 CarDekho — starting via Docker..."
+echo "🚗 CarDekho — starting..."
 echo ""
 
-# Check Docker is running
-if ! docker info > /dev/null 2>&1; then
-  echo "❌ Docker is not running. Please start Docker Desktop and try again."
-  exit 1
-fi
+# Terminal 1: backend
+cd backend
+npm install
+npm run dev &
+BACKEND_PID=$!
 
-docker compose up --build
+# Terminal 2: frontend
+cd ../frontend
+npm install
+npm run dev &
+FRONTEND_PID=$!
 
+echo ""
+echo "✅ Backend:  http://localhost:4000"
+echo "✅ Frontend: http://localhost:3000"
+echo ""
+echo "Press Ctrl+C to stop both."
+
+# Wait and clean up both on exit
+trap "kill $BACKEND_PID $FRONTEND_PID 2>/dev/null" EXIT
+wait
