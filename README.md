@@ -4,7 +4,15 @@ A quiz-driven car recommendation tool for the Indian market. Overwhelmed buyers 
 
 ## How to Run
 
-**With Docker (recommended):**
+**Quickest way:**
+
+```bash
+./start.sh
+```
+
+That's it — runs `docker compose up --build` for you. Then open http://localhost:3000.
+
+**With Docker (manually):**
 
 ```bash
 docker compose up --build
@@ -12,7 +20,7 @@ docker compose up --build
 
 Then open http://localhost:3000
 
-That's it. No Node, no npm, no env vars required.
+No Node, no npm, no env vars required.
 
 **Without Docker (local dev):**
 
@@ -49,3 +57,9 @@ Then open http://localhost:3000
 - Dealer lead form integration
 - More quiz dimensions: ownership history, parking constraints, family size
 - Test drive booking CTA
+
+## Future Enhancements
+
+**AI Chat Assistant** — A conversational interface where buyers can ask follow-up questions in natural language after getting their shortlist (e.g. "Does the Nexon have a sunroof?" or "Which of these is better for highway driving?"). The deterministic scoring engine is intentional — every match/miss reason ties directly to a quiz answer, which makes it transparent and traceable. An LLM-backed chat layer would sit on top of that for open-ended queries the fixed quiz can't anticipate, without replacing the scoring logic itself.
+
+**Admin Panel for Car Data** — The car catalog is currently a static JSON file loaded into memory at startup — the right call for a read-only, zero-config demo. With more time this would be replaced by an admin interface where the team can add, edit, or remove car specs and adjust scoring weights without touching code or redeploying. That's also the natural point to move from in-memory JSON to a lightweight persistent store (SQLite or Postgres).
